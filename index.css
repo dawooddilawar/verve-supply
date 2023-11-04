@@ -1,0 +1,156 @@
+* {
+	margin: 0;
+}
+
+body {
+	font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	padding: 40px;
+	max-width: 1260px;
+	margin: auto;
+}
+
+.navbar__logo {
+	max-width: 50px;
+}
+
+.hero {
+	max-width: 1260px;
+	margin: auto;
+}
+
+.hero__title {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.hero__heading {
+	color: #00567B;
+	font-size: 48px;
+}
+
+.hero__subheading {
+	color: #FBB195;
+	font-size: 24px;
+	max-width: 475px;
+	text-align: center;
+}
+
+.hero__image__container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.hero__image {
+	max-width: 1260px;
+}
+
+.main-page__text {
+	margin: auto;
+	display: flex;
+	align-items: center;
+	height: 595px;
+	color: #FBB195;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	max-width: 788px;
+}
+
+.main-page__text--highlight {
+	color: #00567B;
+}
+
+.product__categories {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 50px;
+	max-width: 1260px;
+	margin: auto;
+}
+
+.category-tile__container {
+	width: 1260px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.category-tile--small__image {
+	height: 595px;
+}
+
+.category-tile__title {
+	color: #00567B;
+	font-weight: bold;
+	font-size: 64px;
+}
+
+.category-tile__items {
+	display: flex;
+	flex-direction: column;
+	color: #FBB195;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.category-tile__cta {
+	text-decoration: none;
+	color: white;
+	font-size: 26px;
+	font-weight: bold;
+	border-radius: 50px;
+	padding: 16px 36px;
+	background-color: #00567B;
+}
+
+.jersey-tile {
+	background-color: #EFE4D1;
+}
+
+.jersey-tile__image {
+	max-width: 1260px;
+}
+
+.jersey-tile__text {
+	position: fixed;
+}
+
+.racket-tile {
+	background-color: #f6f2df;
+	display: flex;
+}
+
+.footer {
+	border-top: 5px solid #00567B;
+	max-width: 1260px;
+	height: 595px;
+	margin: 0 auto 200px auto;
+	font-weight: bold;
+	font-size: 36px;
+	color: #00567B;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.footer__text {
+	font-size: 24px;
+	max-width: 605px;
+	text-align: left;
+}
+
+.footer__email {
+	color: #FBB195;
+	font-size: 36px;
+}
+
+.footer__number {
+	font-size: 36px;
+}
