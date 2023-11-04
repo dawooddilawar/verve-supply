@@ -6,6 +6,10 @@ body {
 	font-family: 'Bai Jamjuree', sans-serif;
 }
 
+.wrapper {
+	margin: 40px;
+}
+
 .navbar {
 	display: flex;
 	justify-content: space-between;
@@ -49,9 +53,11 @@ body {
 }
 
 .hero__title {
+	height: 395px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	justify-content: end;
 }
 
 .hero__heading {
@@ -66,15 +72,8 @@ body {
 	text-align: center;
 }
 
-.hero__image__container {
-	margin-top: 40px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	gap: 40px;
-}
-
 .hero__image {
+	margin: 40px 0;
 	max-width: 1260px;
 }
 
