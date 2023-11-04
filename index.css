@@ -18,6 +18,31 @@ body {
 	max-width: 50px;
 }
 
+.navbar__links {
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navbar__link {
+	text-decoration: none;
+	font-size: 16px;
+	color: #00567B;
+	font-weight: 600;
+}
+
+.navbar__cta {
+	text-decoration: none;
+	width: 130px;
+	color: #00567B;
+	font-weight: bold;
+	border: 3px solid #00567B;
+	text-align: center;
+	padding: 12px 12px;
+	box-shadow: -5px 5px  #00567B;
+}
+
 .hero {
 	max-width: 1260px;
 	margin: auto;
@@ -42,9 +67,11 @@ body {
 }
 
 .hero__image__container {
+	margin-top: 40px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	gap: 40px;
 }
 
 .hero__image {
