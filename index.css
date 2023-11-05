@@ -40,6 +40,10 @@ body {
 	font-weight: 600;
 }
 
+.navbar__link:hover {
+	color: #FBB195;
+}
+
 .navbar__cta {
 	text-decoration: none;
 	width: 130px;
