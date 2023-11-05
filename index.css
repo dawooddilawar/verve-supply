@@ -51,6 +51,13 @@ body {
 	box-shadow: -5px 5px  #00567B;
 }
 
+.navbar__cta:hover {
+	color: white;
+	background-color: #00567B;
+	box-shadow: -5px 5px  #00567B;
+	border: 3px solid white;
+}
+
 .hero {
 	max-width: 1260px;
 	margin: auto;
@@ -156,6 +163,11 @@ body {
 	background-color: #00567B;
 	border: 0;
 	margin-top: 30px;
+}
+
+.category-tile__cta:hover {
+	color: #00567B;
+	background-color: white;
 }
 
 .jersey-tile {
