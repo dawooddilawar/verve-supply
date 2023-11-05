@@ -74,7 +74,7 @@ body {
 
 .hero__image {
 	margin: 40px 0;
-	max-width: 1260px;
+	max-width: 100%;
 }
 
 .main-page__text {
@@ -103,19 +103,34 @@ body {
 }
 
 .category-tile__container {
-	width: 1260px;
+	width: 100%;
 	display: flex;
 	justify-content: space-between;
 }
 
+.category-tile--small {
+	display: flex;
+}
+
+.category-tile__balls {
+	justify-content: start;
+	position: relative;
+}
+
+.category-tile__shorts {
+	justify-content: end;
+	position: relative;
+}
+
 .category-tile--small__image {
-	height: 595px;
+	width: 95%;
 }
 
 .category-tile__title {
 	color: #00567B;
 	font-weight: bold;
 	font-size: 64px;
+
 }
 
 .category-tile__items {
@@ -124,6 +139,7 @@ body {
 	color: #FBB195;
 	font-weight: bold;
 	font-size: 24px;
+	margin-top: 40px;
 }
 
 .category-tile__cta {
@@ -134,23 +150,63 @@ body {
 	border-radius: 50px;
 	padding: 16px 36px;
 	background-color: #00567B;
+	border: 0;
+	margin-top: 30px;
 }
 
 .jersey-tile {
+	position: relative;
 	background-color: #EFE4D1;
 }
 
 .jersey-tile__image {
-	max-width: 1260px;
+	width: 100%;
+	display: block;
 }
 
 .jersey-tile__text {
-	position: fixed;
+	position: absolute;
+	top: 50px;
+	left: 90px;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+}
+
+.balls-tile__text {
+	position: absolute;
+	top: 30px;
+	left: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+}
+
+.shorts-tile__text {
+	position: absolute;
+	bottom: 120px;
+	left: 60px;
+	color: white;
+}
+
+.white {
+	color: white;
 }
 
 .racket-tile {
+	position: relative;
 	background-color: #f6f2df;
 	display: flex;
+	justify-content: space-between;
+}
+
+.racket-tile__text {
+	position: absolute;
+	top: 50px;
+	right: 90px;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
 }
 
 .footer {
