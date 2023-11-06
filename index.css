@@ -295,6 +295,12 @@ body {
 		display: block;
 	}
 
+	.main-page__text {
+		max-width: 95%;
+		padding: 30px;
+		height: 400px;
+	}
+
 	.product__categories {
 		gap: 20px;
 		padding: 30px;
@@ -335,12 +341,12 @@ body {
 
 	.shorts-tile__text {
 		bottom: 20px;
-		left: 20px;
+		left: 30px;
 	}
 
 	.balls-tile__text {
 		top: 20px;
-		left: 20px;
+		left: 30px;
 	}
 
 	.category-tile__balls {
