@@ -6,11 +6,11 @@
     padding: 0 0 120px
 }
 
-@media (min-width: 1024px) {
-    .fp-photoreel.-lg .fp-photoreel-content {
-        padding:0 0 225px
-    }
-}
+/*@media (min-width: 1024px) {*/
+/*    .fp-photoreel.-lg .fp-photoreel-content {*/
+/*        padding:0 0 225px*/
+/*    }*/
+/*}*/
 
 @media (min-width: 1600px) {
     .fp-photoreel.-lg .fp-photoreel-content {
