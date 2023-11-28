@@ -62,6 +62,7 @@ body {
 
 .main-page__text--highlight {
 	color: #00567B;
+	font-weight: bold;
 }
 
 .product__categories {
@@ -183,6 +184,32 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: start;
+}
+
+.testimonials {
+	margin: auto;
+	max-width: 1260px;
+	width: 80%;
+	padding: 10vh 0;
+	color: #204b45;
+	font-weight: bold;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	font-size: 24px;
+}
+
+.testimonials__heading {
+	color: #FBB195;
+	font-size: 16px;
+}
+
+.testimonial {
+	font-size: 20px;
+	text-align: justify;
+	width: 60%;
+	color: #FBB195;
+	font-weight: 600;
 }
 
 .footer {
