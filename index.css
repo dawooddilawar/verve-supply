@@ -95,7 +95,7 @@ body {
 }
 
 .category-tile--small__image {
-	width: 95%;
+	width: 65%;
 }
 
 .category-tile__title {
@@ -124,6 +124,27 @@ body {
 	background-color: #00567B;
 	border: 0;
 	margin-top: 30px;
+}
+
+.call__cta {
+	text-decoration: none;
+	font-size: 26px;
+	font-weight: bold;
+	border-radius: 50px;
+	padding: 16px 36px;
+	color: #FBB195;
+	background-color: #00567B;
+	border: 0;
+	margin-top: 30px;
+	position: fixed;
+	right: 40px;
+	bottom: 80px;
+	z-index: 3;
+}
+
+.call__cta:hover {
+	color: #00567B;
+	background-color: #FBB195;
 }
 
 .category-tile__cta:hover {
@@ -300,6 +321,8 @@ body {
 		display: none;
 	}
 
+
+
 	.jersey-tile {
 		height: 335px;
 		width: 95%;
@@ -318,6 +341,10 @@ body {
 
 	.category-tile__shorts {
 		justify-content: center;
+	}
+
+	.category-tile--small__image {
+		width: 95%;
 	}
 
 	.shorts-tile__text {
