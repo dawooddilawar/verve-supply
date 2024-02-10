@@ -47,45 +47,6 @@
     border: 3px solid white;
 }
 
-.navbar__cta--container {
-    position: relative;
-    display: inline-block;
-    margin: 80px 0 60px 0;
-}
-
-.cta--dropdown {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.cta--dropdown a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-.cta--dropdown a:hover {
-    background-color: #00567B;
-    color: white;
-    font-weight: bold;
-}
-
-.navbar__cta--container:hover .cta--dropdown {
-    display: block;
-}
-
-.navbar__cta--container:hover .navbar__cta {
-    color: white;
-    background-color: #00567B;
-    box-shadow: -5px 5px  #00567B;
-    border: 3px solid white;
-}
-
 .nav--toggle {
     display: none;
 }
