@@ -78,6 +78,7 @@ body {
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
+	gap: 50px;
 }
 
 .category-tile--small {
@@ -95,14 +96,14 @@ body {
 }
 
 .category-tile--small__image {
-	width: 65%;
+	width: 100%;
 }
 
 .category-tile__title {
 	color: #00567B;
 	font-weight: bold;
 	font-size: 64px;
-
+	max-width: 200px;
 }
 
 .category-tile__items {
