@@ -31,7 +31,7 @@
 
 .navbar__cta {
     text-decoration: none;
-    width: 130px;
+    min-width: 130px;
     color: #00567B;
     font-weight: bold;
     border: 3px solid #00567B;
